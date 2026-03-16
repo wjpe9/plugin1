@@ -1,0 +1,56 @@
+.cupe-price {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.cupe-price__label,
+.cupe-price__suffix,
+.cupe-price__code {
+  line-height: 1.2;
+}
+
+.cupe-price__label,
+.cupe-price__suffix {
+  font-size: 0.9em;
+  opacity: 0.9;
+}
+
+.cupe-price__main {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 4px;
+}
+
+.cupe-price__symbol {
+  font-weight: 700;
+  line-height: 1;
+}
+
+.cupe-price__amount {
+  font-weight: 700;
+  line-height: 1;
+}
+
+.cupe-price--context-hero .cupe-price__amount {
+  font-size: 2rem;
+}
+
+.cupe-price--context-card .cupe-price__amount {
+  font-size: 1.5rem;
+}
+
+.cupe-price--context-inline .cupe-price__amount,
+.cupe-price--context-default .cupe-price__amount {
+  font-size: 1.2rem;
+}
+
+.cupe-price--currency-usd .cupe-price__code,
+.cupe-price--currency-eur .cupe-price__code,
+.cupe-price--currency-pen .cupe-price__code,
+.cupe-price--currency-brl .cupe-price__code,
+.cupe-price--currency-clp .cupe-price__code {
+  font-size: 0.8em;
+  opacity: 0.8;
+}
